@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79fe53c4-e5c9-44a6-8268-6b006323c71d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".eslintrc.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.eslintrc.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-app.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/my-app.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-icons.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my-icons.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-view1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my-view1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-view2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my-view2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-view3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my-view3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-view404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my-view404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shared-styles.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared-styles.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lint</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../envision.primefaces.consulting/projects/ets/iEnvision/trunk" value="24281177687000" />
+        <entry key="$PROJECT_DIR$/../../../envision.primefaces.consulting/projects/ets/ienvision/trunk" value="22961458395000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="325" />
+    <option name="y" value="109" />
+    <option name="width" value="1870" />
+    <option name="height" value="1360" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Assignment issues</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issues</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>FreeMarker inspections</id>
+          </State>
+          <State>
+            <id>GPath inspectionsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google App Engine</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Initialization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Memory issues</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Struts 2Struts</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Velocity inspections</id>
+          </State>
+          <State>
+            <id>Visibility issues</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="typescript-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typescript-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typescript-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typescript-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="JavaScriptLanguageLevel" value="ES6" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="typescript-starter" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79fe53c4-e5c9-44a6-8268-6b006323c71d" name="Default" comment="" />
+      <created>1511897962455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511897962455</updated>
+      <workItem from="1511897963890" duration="2289000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2289000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="325" y="109" width="1870" height="1360" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930756" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930756" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23713034" sideWeight="0.5042017" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22946331" sideWeight="0.49579832" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="GitLab Issues" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/prop-app/prop-app-tests.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/prop-app/prop-app-tests.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/prop-photos/prop-photos-tests.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/prop-photos/prop-photos-tests.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/now-comments/now-comments-tests.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/now-comments/now-comments-tests.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/now-accounting/now-accounting-tests.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/now-accounting/now-accounting-tests.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/now-project-man/now-project-man-tests.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/now-project-man/now-project-man-tests.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/prop-crud-manager/prop-crud-manager-tests.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/prop-crud-manager/prop-crud-manager-tests.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/now-requisition-man/now-requisition-man-tests.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/now-requisition-man/now-requisition-man-tests.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/prop-completion-notice/prop-completion-notice-tests.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/prop-completion-notice/prop-completion-notice-tests.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/now-requisition-tracker/now-requisition-tracker-tests.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/test/now-requisition-tracker/now-requisition-tracker-tests.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-app/prop-app.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-app/prop-app.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-core/prop-core.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-core/prop-core.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-budget/prop-budget.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-budget/prop-budget.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-photos/prop-photos.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-photos/prop-photos.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-comments/now-comments.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-comments/now-comments.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-feedback/now-feedback.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-feedback/now-feedback.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-funding/prop-funding.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-funding/prop-funding.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-reports/prop-reports.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-reports/prop-reports.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-accounting/now-accounting.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-accounting/now-accounting.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-documents/prop-documents.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-documents/prop-documents.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-project-man/now-project-man.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-project-man/now-project-man.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-architects/prop-architects.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-architects/prop-architects.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-start-page/prop-start-page.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-start-page/prop-start-page.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-report-field/now-report-field.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-report-field/now-report-field.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-adjustments/prop-adjustments.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-adjustments/prop-adjustments.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-base-report/prop-base-report.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-base-report/prop-base-report.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-contractors/prop-contractors.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-contractors/prop-contractors.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-crud-manager/prop-crud-manager.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-crud-manager/prop-crud-manager.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-general-info/prop-general-info.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-general-info/prop-general-info.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-transactions/prop-transactions.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-transactions/prop-transactions.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-projects-list/prop-projects-list.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-projects-list/prop-projects-list.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-report-chrome/prop-report-chrome.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-report-chrome/prop-report-chrome.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-report-viewer/prop-report-viewer.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-report-viewer/prop-report-viewer.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-view-behavior/prop-view-behavior.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-view-behavior/prop-view-behavior.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-requisition-man/now-requisition-man.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-requisition-man/now-requisition-man.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-element-template/prop-element.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-element-template/prop-element.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-completion-notice/prop-completion-notice.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-completion-notice/prop-completion-notice.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-requisition-tracker/now-requisition-tracker.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/now-requisition-tracker/now-requisition-tracker.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-auto-save-behavior/prop-auto-save-behavior.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-auto-save-behavior/prop-auto-save-behavior.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-audit-detail-report/prop-audit-detail-report.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-audit-detail-report/prop-audit-detail-report.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-transactions-report/prop-transactions-report.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-transactions-report/prop-transactions-report.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-audit-summary-report/prop-audit-summary-report.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-audit-summary-report/prop-audit-summary-report.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-div-project-summary-report/prop-div-project-summary-report.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-div-project-summary-report/prop-div-project-summary-report.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-master-project-list-report/prop-master-project-list-report.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-master-project-list-report/prop-master-project-list-report.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-project-location-list-report/prop-project-location-list-report.js.map" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-project-location-list-report/prop-project-location-list-report.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-substantial-completion-report/prop-substantial-completion-report.js" />
+        <option value="$PROJECT_DIR$/../../../red.pill.now.polymer.consulting/vcs/property-db/app/elements/prop-substantial-completion-report/prop-substantial-completion-report.js.map" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared-styles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my-view404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my-view3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my-view2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my-view1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my-icons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35844374" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
