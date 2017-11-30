@@ -86,7 +86,7 @@ declare namespace Polymer {
    *   this element have been propagated to its template and all observers
    *   have run
    */
-  function Class(info: PolymerInit): () => any;
+  function Class(info: any): () => any;
 }
 
 declare class PolymerGenerated {

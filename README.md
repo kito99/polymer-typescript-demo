@@ -1,6 +1,8 @@
-# Polymer App Toolbox - Starter Kit with custom build
+# Polymer App Toolbox - TypeScript Starter Kit
 
-[![Build Status](https://travis-ci.org/PolymerElements/generator-polymer-init-custom-build.svg?branch=master)](https://travis-ci.org/PolymerElements/generator-polymer-init-custom-build)
+This is a TypeScript version of the Polymer 2 Starter Kit that uses the [Polymer Decorators](https://github.com/Polymer/polymer-decorators) project.
+
+> NOTE The Polymer typings are currently in the `polymer-types` folder and are derived from the typings [in this branch](https://github.com/Polymer/polymer/tree/aomarks-typescript) of the Polymer project, and will be replaced with the official typings when they are available.
 
 This template is a starting point for building apps using a drawer-based
 layout. The layout is provided by `app-layout` elements.
@@ -25,22 +27,12 @@ the library powering [Polymer CLI](https://github.com/Polymer/polymer-cli).
 
 ##### Prerequisites
 
-First, install [Polymer CLI](https://github.com/Polymer/polymer-cli) and
-generator-polymer-init-custom-build using [npm](https://www.npmjs.com) (we
-assume you have pre-installed [node.js](https://nodejs.org)).
+Since this project isn't yet a Polymer template (see [issue #1](https://github.com/virtua-tech/polymer-typescript-starter-kit/issues/1) to track progress, you need to clone the repo to use it.
 
-    npm install -g polymer-cli
-    npm install -g generator-polymer-init-custom-build
+Assuming you have `node` and `bower` installed, once you clone the repo, install the dependencies:
 
-Second, install [Bower](https://bower.io/) using [npm](https://www.npmjs.com)
-
-    npm install -g bower
-
-##### Initialize project from template
-
-    mkdir my-app
-    cd my-app
-    polymer init polymer-starter-kit-custom-build
+    npm install
+    bower install 
 
 ### Start the development server
 
@@ -53,8 +45,8 @@ routing for the app:
 
 The included `gulpfile.js` relies on [the `polymer-build` library](https://github.com/Polymer/polymer-build),
 the same library that powers Polymer CLI. Out of the box it will clean the
-`build` directory, and provide image minification. Follow the comments in the
-`gulpfile.js` to add additional steps like JS transpilers or CSS preprocessors.
+`build` directory, and provide image minification and compile your TypeScript code. Follow the comments in the
+`gulpfile.js` to add additional steps like CSS preprocessors.
 
 `gulpfile.js` also generates a `service-worker.js` file with code to pre-cache
 the dependencies based on the entrypoint and fragments specified in
@@ -62,6 +54,15 @@ the dependencies based on the entrypoint and fragments specified in
 
     npm run build
 
+
+### Watch file changes
+
+To re-compile your files via TypeScript whenever there is change, run the `watch` task:
+
+    npm run watch
+    
+> NOTE: Depending on your editor setup, it may already be doing this for you.
+    
 ### Preview the build
 
 This command serves your app.

@@ -1,19 +1,20 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2016",
     "noImplicitAny": false,
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
     "experimentalDecorators": true,
     "listFiles": true,
-    "noEmitOnError": true
+    "noEmitOnError": true,
+    "emitDecoratorMetadata": true
   },
   "include": [
     "src/**/*.ts",
     "bower_components/polymer-decorators/global.d.ts",
-    "polymer-types/polymer-element.d.ts"
+    "polymer-types/**/*.d.ts"
   ],
   "exclude": [
     "bower_components/polymer/lib/elements/custom-style.d.ts"

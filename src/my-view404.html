@@ -9,6 +9,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/polymer-decorators/polymer-decorators.html">
 
 <dom-module id="my-view404">
   <template>
@@ -23,18 +24,5 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     Oops you hit a 404. <a href="[[rootPath]]">Head back to home.</a>
   </template>
 
-  <script>
-      class MyView404 extends Polymer.Element {
-          static get is() { return 'my-view404'; }
-          static get properties() {
-              return {
-                  // This shouldn't be neccessary, but the Analyzer isn't picking up
-                  // Polymer.Element#rootPath
-                  rootPath: String,
-              };
-          }
-      }
-
-      window.customElements.define(MyView404.is, MyView404);
-  </script>
+  <script src="my-view404.js"></script>
 </dom-module>

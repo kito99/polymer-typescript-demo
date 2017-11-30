@@ -31,8 +31,8 @@ const swPrecacheConfig = require('./sw-precache-config.js');
 const polymerJson = require('./polymer.json');
 const polymerProject = new polymerBuild.PolymerProject(polymerJson);
 const buildDirectory = 'build';
-
 const sourceDirectory = 'src';
+const testDirectory = 'src';
 
 /** True if any errors have been sent to handleError() */
 let haveErrors = false;
@@ -88,7 +88,7 @@ function typescript() {
         .pipe(plumber({errorHandler: handleError}))
         .pipe(tsProject(typeScriptReporter()));
     return tsResult.js.pipe(sourcemaps.write('.')).pipe(gulp.dest(sourceDirectory));
-};
+}
 
 function build() {
     return new Promise(function(resolve, reject) {
@@ -145,5 +145,11 @@ function build() {
     });
 }
 
+function watch() {
+    gulp.watch([sourceDirectory + '/**/*.ts'], ['typescript']);
+    gulp.watch([testDirectory + '/**/*.ts'], ['typescript']);
+}
+
 gulp.task('typescript', typescript);
-gulp.task('build', build);
+gulp.task('watch', ['typescript'], watch);
+gulp.task('build', ['typescript'], build);

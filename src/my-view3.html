@@ -9,6 +9,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 
 <link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/polymer-decorators/polymer-decorators.html">
+
 <link rel="import" href="shared-styles.html">
 
 <dom-module id="my-view3">
@@ -29,11 +31,5 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </div>
   </template>
 
-  <script>
-      class MyView3 extends Polymer.Element {
-          static get is() { return 'my-view3'; }
-      }
-
-      window.customElements.define(MyView3.is, MyView3);
-  </script>
+  <script src="my-view3.js"></script>
 </dom-module>

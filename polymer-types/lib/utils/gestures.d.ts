@@ -42,7 +42,7 @@ declare namespace Polymer {
      * Registers a new gesture event recognizer for adding new custom
      * gesture event types.
      */
-    function register(recog: GestureRecognizer|null): any;
+    function register(recog: any|null): any;
 
 
     /**
