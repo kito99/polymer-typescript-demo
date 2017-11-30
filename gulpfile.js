@@ -24,6 +24,12 @@ const swPrecacheConfig = require('./sw-precache-config.js');
 const polymerJson = require('./polymer.json');
 const polymerProject = new polymerBuild.PolymerProject(polymerJson);
 const buildDirectory = 'build';
+
+
+const sourcemaps = require('gulp-sourcemaps');
+const ts = require('gulp-typescript');
+const tsProject = ts.createProject('tsconfig.json');
+
 /**
  * Waits for the given ReadableStream
  */
@@ -33,6 +39,18 @@ function waitFor(stream) {
         stream.on('error', reject);
     });
 }
+
+gulp.task('typescript', function() {
+    const tsResult = tsProject.src()
+        .pipe(sourcemaps.init())
+        .pipe(plumber({errorHandler: handleError}))
+        .pipe(tsProject(typeScriptReporter()));
+    return merge([
+        tsResult.dts.pipe(gulpIgnore.exclude(src + '/test/**/*')).pipe(gulp.dest(dist())),
+        tsResult.js.pipe(sourcemaps.write('.')).pipe(gulp.dest(src))
+    ]);
+});
+
 function build() {
     return new Promise(function (resolve, reject) {
         // Lets create some inline code splitters in case you need them later in your build.
@@ -45,7 +63,7 @@ function build() {
             // Let's start by getting your source files. These are all the files
             // in your `src/` directory, or those that match your polymer.json
             // "sources"  property if you provided one.
-            let sourcesStream = polymerProject.sources()
+            const sourcesStream = polymerProject.sources()
                 .pipe(gulpif(/\.(png|gif|jpg|svg)$/, imagemin()))
                 .pipe(sourcesStreamSplitter.split())
                 .pipe(sourcesStreamSplitter.rejoin());
@@ -87,4 +105,5 @@ function build() {
         });
     });
 }
-gulp.task('build', build);
+
+gulp.task('build', ['typescript'], build);
