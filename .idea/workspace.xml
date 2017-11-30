@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79fe53c4-e5c9-44a6-8268-6b006323c71d" name="Default" comment="Added Polymer 2 types and upgraded to Polymer 2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="79fe53c4-e5c9-44a6-8268-6b006323c71d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -647,7 +646,7 @@
       <workItem from="1511988878301" duration="1594000" />
       <workItem from="1511992495676" duration="674000" />
       <workItem from="1512049510391" duration="11992000" />
-      <workItem from="1512067376877" duration="991000" />
+      <workItem from="1512067376877" duration="1009000" />
     </task>
     <task id="LOCAL-00001" summary="Added idea artifact">
       <created>1511988923003</created>
@@ -670,11 +669,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512068730692</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added gitignore">
+      <created>1512068775760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512068775760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17540000" />
+    <option name="totallyTimeSpent" value="17558000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -852,7 +858,8 @@
     <MESSAGE value="Added idea artifact" />
     <MESSAGE value="Added Polymer 2 types and upgraded to Polymer 2" />
     <MESSAGE value="Removed build folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed build folder" />
+    <MESSAGE value="Added gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
