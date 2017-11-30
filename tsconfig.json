@@ -11,6 +11,12 @@
     "noEmitOnError": true
   },
   "include": [
-    "src/**/.ts"
-  ]
+    "src/**/*.ts",
+    "bower_components/polymer-decorators/global.d.ts",
+    "polymer-types/polymer-element.d.ts"
+  ],
+  "exclude": [
+    "bower_components/polymer/lib/elements/custom-style.d.ts"
+    ]
+  }
 }
