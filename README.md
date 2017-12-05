@@ -27,19 +27,12 @@ the library powering [Polymer CLI](https://github.com/Polymer/polymer-cli).
 
 ##### Prerequisites
 
-Since this project isn't yet a Polymer template (see [issue #1](https://github.com/virtua-tech/polymer-typescript-starter-kit/issues/1) to track progress, you need to clone the repo to use it.
+Since this project isn't yet a Polymer template (see [issue #1](https://github.com/virtua-tech/polymer-typescript-starter-kit/issues/1) to track progress), you need to clone the repo to use it.
 
 Assuming you have `node` and `bower` installed, once you clone the repo, install the dependencies:
 
     npm install
     bower install 
-
-### Start the development server
-
-This command serves the app at `http://127.0.0.1:8081` and provides basic URL
-routing for the app:
-
-    polymer serve
 
 ### Build
 
@@ -54,7 +47,6 @@ the dependencies based on the entrypoint and fragments specified in
 
     npm run build
 
-
 ### Watch file changes
 
 To re-compile your files via TypeScript whenever there is change, run the `watch` task:
@@ -62,6 +54,13 @@ To re-compile your files via TypeScript whenever there is change, run the `watch
     npm run watch
     
 > NOTE: Depending on your editor setup, it may already be doing this for you.
+
+### Start the development server
+
+This command serves the app at `http://127.0.0.1:8081` and provides basic URL
+routing for the app:
+
+    polymer serve
     
 ### Preview the build
 
