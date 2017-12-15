@@ -23,9 +23,9 @@ The PRPL pattern, in a nutshell:
 Also have a custom gulp process leveraging [polymer-build](https://github.com/Polymer/polymer-build),
 the library powering [Polymer CLI](https://github.com/Polymer/polymer-cli).
 
-### Setup
+## Setup
 
-##### Prerequisites
+### Prerequisites
 
 Since this project isn't yet a Polymer template (see [issue #1](https://github.com/virtua-tech/polymer-typescript-starter-kit/issues/1) to track progress), you need to clone the repo to use it.
 
