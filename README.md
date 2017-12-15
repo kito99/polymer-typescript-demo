@@ -29,7 +29,11 @@ the library powering [Polymer CLI](https://github.com/Polymer/polymer-cli).
 
 Since this project isn't yet a Polymer template (see [issue #1](https://github.com/virtua-tech/polymer-typescript-starter-kit/issues/1) to track progress), you need to clone the repo to use it.
 
-Assuming you have `node` and `bower` installed, once you clone the repo, install the dependencies:
+You will need to have [node](https://nodejs.org/) installed. After you have installed node, make sure you have `bower`  installed globally:
+
+    npm install -g bower
+
+After you have cloned the repo installed node, and bower, install the dependencies:
 
     npm install
     bower install 
