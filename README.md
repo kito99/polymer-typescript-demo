@@ -29,11 +29,15 @@ the library powering [Polymer CLI](https://github.com/Polymer/polymer-cli).
 
 Since this project isn't yet a Polymer template (see [issue #1](https://github.com/virtua-tech/polymer-typescript-starter-kit/issues/1) to track progress), you need to clone the repo to use it.
 
+If you haven't already, you'll also need to install the Polymer CLI:
+
+    npm install polymer-cli -g
+
 Assuming you have `node` and `bower` installed, once you clone the repo, install the dependencies:
 
     npm install
     bower install 
-
+    
 ### Build
 
 The included `gulpfile.js` relies on [the `polymer-build` library](https://github.com/Polymer/polymer-build),

@@ -148,6 +148,7 @@ function build() {
 function watch() {
     gulp.watch([sourceDirectory + '/**/*.ts'], ['typescript']);
     gulp.watch([testDirectory + '/**/*.ts'], ['typescript']);
+    gulp.watch(['tsconfig.json'], ['typescript']);
 }
 
 gulp.task('typescript', typescript);
