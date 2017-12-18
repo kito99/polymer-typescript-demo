@@ -23,21 +23,21 @@ The PRPL pattern, in a nutshell:
 Also have a custom gulp process leveraging [polymer-build](https://github.com/Polymer/polymer-build),
 the library powering [Polymer CLI](https://github.com/Polymer/polymer-cli).
 
-### Setup
+## Setup
 
-##### Prerequisites
+### Prerequisites
 
 Since this project isn't yet a Polymer template (see [issue #1](https://github.com/virtua-tech/polymer-typescript-starter-kit/issues/1) to track progress), you need to clone the repo to use it.
 
-If you haven't already, you'll also need to install the Polymer CLI:
+You will need to have [node](https://nodejs.org/) installed. After you have installed node, make sure you have `bower`  installed globally:
 
-    npm install polymer-cli -g
+    npm install -g bower
 
-Assuming you have `node` and `bower` installed, once you clone the repo, install the dependencies:
+After you have cloned the repo installed node, and bower, install the dependencies:
 
     npm install
     bower install 
-    
+
 ### Build
 
 The included `gulpfile.js` relies on [the `polymer-build` library](https://github.com/Polymer/polymer-build),
