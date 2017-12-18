@@ -662,7 +662,7 @@
       <workItem from="1513107748123" duration="6356000" />
       <workItem from="1513192122405" duration="1620000" />
       <workItem from="1513622872727" duration="1053000" />
-      <workItem from="1513627761380" duration="603000" />
+      <workItem from="1513627761380" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="Added idea artifact">
       <created>1511988923003</created>
@@ -713,11 +713,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513628361966</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added gitignore">
+      <created>1513628387639</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1513628387639</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36387000" />
+    <option name="totallyTimeSpent" value="36413000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
