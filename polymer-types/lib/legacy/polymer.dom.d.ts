@@ -15,13 +15,24 @@
 
 declare namespace Polymer {
 
+  /**
+   * Legacy DOM and Event manipulation API wrapper factory used to abstract
+   * differences between native Shadow DOM and "Shady DOM" when polyfilling on
+   * older browsers.
+   *
+   * Note that in Polymer 2.x use of `Polymer.dom` is no longer required and
+   * in the majority of cases simply facades directly to the standard native
+   * API.
+   */
   namespace dom {
 
 
     /**
      * Cross-platform `element.matches` shim.
+     *
+     * @returns True if node matched selector
      */
-    function matchesSelector(node: Element, selector: string): boolean;
+    function matchesSelector(node: Node, selector: string): boolean;
   }
 
   /**
@@ -46,12 +57,12 @@ declare namespace Polymer {
      * @param observerHandle Observer instance
      *   to disconnect.
      */
-    unobserveNodes(observerHandle: Polymer.FlattenedNodesObserver|null): any;
+    unobserveNodes(observerHandle: Polymer.FlattenedNodesObserver|null): void;
 
     /**
      * Provided as a backwards-compatible API only.  This method does nothing.
      */
-    notifyObserver(): any;
+    notifyObserver(): void;
 
     /**
      * Returns true if the provided node is contained with this element's
@@ -100,10 +111,10 @@ declare namespace Polymer {
     importNode(node: Node|null, deep: boolean): Node|null;
 
     /**
-     * @returns Returns a flattened list of all child nodes and nodes assigned
-     * to child slots.
+     * @returns Returns a flattened list of all child nodes and
+     * nodes assigned to child slots.
      */
-    getEffectiveChildNodes(): any[]|null;
+    getEffectiveChildNodes(): Node[];
 
     /**
      * Returns a filtered list of flattened child elements for this element based
@@ -124,6 +135,8 @@ declare namespace Polymer {
    * Note that in Polymer 2.x use of `Polymer.dom` is no longer required and
    * in the majority of cases simply facades directly to the standard native
    * API.
+   *
+   * @returns Wrapper providing either node API or event API
    */
   function dom(obj: Node|Event|null): DomApi|EventApi|null;
 }

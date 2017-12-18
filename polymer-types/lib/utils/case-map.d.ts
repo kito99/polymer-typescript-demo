@@ -12,12 +12,18 @@
 
 declare namespace Polymer {
 
+  /**
+   * Module with utilities for converting between "dash-case" and "camelCase"
+   * identifiers.
+   */
   namespace CaseMap {
 
 
     /**
      * Converts "dash-case" identifier (e.g. `foo-bar-baz`) to "camelCase"
      * (e.g. `fooBarBaz`).
+     *
+     * @returns Camel-case representation of the identifier
      */
     function dashToCamelCase(dash: string): string;
 
@@ -25,6 +31,8 @@ declare namespace Polymer {
     /**
      * Converts "camelCase" identifier (e.g. `fooBarBaz`) to "dash-case"
      * (e.g. `foo-bar-baz`).
+     *
+     * @returns Dash-case representation of the identifier
      */
     function camelToDashCase(camel: string): string;
   }

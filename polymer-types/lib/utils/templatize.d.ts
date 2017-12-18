@@ -25,14 +25,6 @@ declare class TemplateInstanceBase extends
   _setUnmanagedPropertyToNode(node: any, prop: any, value: any): any;
 
   /**
-   * Configure the given `props` by calling `_setPendingProperty`. Also
-   * sets any properties stored in `__hostProps`.
-   *
-   * @param props Object of property name-value pairs to set.
-   */
-  _configureProperties(props: Object|null): any;
-
-  /**
    * Forwards a host property to this instance.  This method should be
    * called on instances from the `options.forwardHostProp` callback
    * to propagate changes of host properties to each instance.
@@ -42,7 +34,7 @@ declare class TemplateInstanceBase extends
    * @param prop Property or path name
    * @param value Value of the property to forward
    */
-  forwardHostProp(prop: string, value: any): any;
+  forwardHostProp(prop: string, value: any): void;
 
   /**
    * Shows or hides the template instance top level child elements. For
@@ -52,7 +44,7 @@ declare class TemplateInstanceBase extends
    * @param hide Set to true to hide the children;
    * set to false to show them.
    */
-  _showHideChildren(hide: boolean): any;
+  _showHideChildren(hide: boolean): void;
 }
 
 declare namespace templateInfo {
@@ -117,8 +109,11 @@ declare namespace Polymer {
      * used; rather, callbacks are called bound to the `owner`, and so context
      * needed from the callbacks (such as references to `instances` stamped)
      * should be stored on the `owner` such that they can be retrieved via `this`.
+     *
+     * @returns Generated class bound to the template
+     *   provided
      */
-    function templatize(template: HTMLTemplateElement, owner: any, options?: Object|null): () => any;
+    function templatize(template: HTMLTemplateElement, owner: Polymer_PropertyEffects, options?: object|null): {new(): TemplateInstanceBase};
 
 
     /**
@@ -134,13 +129,10 @@ declare namespace Polymer {
      *   if (model.index < 10) {
      *     model.set('item.checked', true);
      *   }
+     *
+     * @returns Template instance representing the
+     *   binding scope for the element
      */
     function modelForElement(template: HTMLTemplateElement|null, node: Node|null): TemplateInstanceBase|null;
   }
-}
-
-/**
- * Subclass base class and add reference for this specific template
- */
-declare class klass {
 }

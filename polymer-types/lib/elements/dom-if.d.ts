@@ -35,7 +35,7 @@ declare namespace Polymer {
     /**
      * A boolean indicating whether this template should stamp.
      */
-    if: boolean;
+    if: boolean|null|undefined;
 
     /**
      * When true, elements will be removed from DOM and discarded when `if`
@@ -44,10 +44,9 @@ declare namespace Polymer {
      * in the DOM when `if` becomes false, which is generally results
      * in better performance.
      */
-    restamp: boolean;
+    restamp: boolean|null|undefined;
     connectedCallback(): any;
     disconnectedCallback(): any;
-    __debounceRender(): any;
 
     /**
      * Forces the element to render its content. Normally rendering is
@@ -56,11 +55,7 @@ declare namespace Polymer {
      * should be called if, for example, template rendering is required to
      * validate application state.
      */
-    render(): any;
-    __render(): any;
-    __ensureInstance(): any;
-    __syncHostProperties(): any;
-    __teardownInstance(): any;
+    render(): void;
     _showHideChildren(): any;
   }
 }

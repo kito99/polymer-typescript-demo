@@ -14,6 +14,14 @@
 
 declare namespace Polymer {
 
+  /**
+   * Module for adding listeners to a node for the following normalized
+   * cross-platform "gesture" events:
+   * - `down` - mouse or touch went down
+   * - `up` - mouse or touch went up
+   * - `tap` - mouse click or finger tap
+   * - `track` - mouse drag or touch move
+   */
   namespace Gestures {
 
 
@@ -22,27 +30,34 @@ declare namespace Polymer {
      *
      * Similar to `document.elementFromPoint`, but pierces through
      * shadow roots.
+     *
+     * @returns Returns the deepest shadowRoot inclusive element
+     * found at the screen position given.
      */
     function deepTargetFind(x: number, y: number): Element|null;
 
 
     /**
      * Adds an event listener to a node for the given gesture type.
+     *
+     * @returns Returns true if a gesture event listener was added.
      */
-    function addListener(node: Node|null, evType: string, handler: Function|null): boolean;
+    function addListener(node: Node, evType: string, handler: Function): boolean;
 
 
     /**
      * Removes an event listener from a node for the given gesture type.
+     *
+     * @returns Returns true if a gesture event listener was removed.
      */
-    function removeListener(node: Node|null, evType: string, handler: Function|null): boolean;
+    function removeListener(node: Node, evType: string, handler: Function): boolean;
 
 
     /**
      * Registers a new gesture event recognizer for adding new custom
      * gesture event types.
      */
-    function register(recog: any|null): any;
+    function register(recog: GestureRecognizer): void;
 
 
     /**
@@ -51,13 +66,13 @@ declare namespace Polymer {
      * This value is checked on first move, thus it should be called prior to
      * adding event listeners.
      */
-    function setTouchAction(node: Element|null, value: string): any;
+    function setTouchAction(node: Element, value: string): void;
 
 
     /**
      * Prevents the dispatch and default action of the given event name.
      */
-    function prevent(evName: string): any;
+    function prevent(evName: string): void;
 
 
     /**
@@ -67,6 +82,6 @@ declare namespace Polymer {
      * This method should only be called during testing with simulated touch inputs.
      * Calling this method in production may cause duplicate taps or other Gestures.
      */
-    function resetMouseCanceller(): any;
+    function resetMouseCanceller(): void;
   }
 }

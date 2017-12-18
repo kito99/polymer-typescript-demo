@@ -33,18 +33,33 @@ declare namespace Polymer {
    * at a microtask checkpoint. This is because observation is performed using
    * `MutationObserver` and the `<slot>` element's `slotchange` event which
    * are asynchronous.
+   *
+   * An example:
+   * ```js
+   * class TestSelfObserve extends Polymer.Element {
+   *   static get is() { return 'test-self-observe';}
+   *   connectedCallback() {
+   *     super.connectedCallback();
+   *     this._observer = new Polymer.FlattenedNodesObserver(this, (info) => {
+   *       this.info = info;
+   *     });
+   *   }
+   *   disconnectedCallback() {
+   *     super.disconnectedCallback();
+   *     this._observer.disconnect();
+   *   }
+   * }
+   * customElements.define(TestSelfObserve.is, TestSelfObserve);
+   * ```
    */
   class FlattenedNodesObserver {
-    _shadyChildrenObserver: MutationObserver|null;
-    _nativeChildrenObserver: MutationObserver|null;
-    _boundSchedule: () => any;
 
     /**
      * Activates an observer. This method is automatically called when
      * a `FlattenedNodesObserver` is created. It should only be called to
      * re-activate an observer that has been deactivated via the `disconnect` method.
      */
-    connect(): any;
+    connect(): void;
 
     /**
      * Deactivates the flattened nodes observer. After calling this method
@@ -52,7 +67,7 @@ declare namespace Polymer {
      * occur. The `connect` method may be subsequently called to reactivate
      * the observer.
      */
-    disconnect(): any;
+    disconnect(): void;
     _schedule(): any;
     _processMutations(mutations: any): any;
     _processSlotMutations(mutations: any): any;
