@@ -14,10 +14,9 @@
   "include": [
     "src/**/*.ts",
     "bower_components/polymer-decorators/global.d.ts",
-    "polymer-types/**/*.d.ts"
+    "bower_components/polymer/types/*.d.ts"
   ],
   "exclude": [
     "bower_components/polymer/lib/elements/custom-style.d.ts"
-    ]
-  }
+  ]
 }

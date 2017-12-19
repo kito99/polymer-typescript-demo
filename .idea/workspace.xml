@@ -1,8 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79fe53c4-e5c9-44a6-8268-6b006323c71d" name="Default" comment="Added gitignore">
+    <list default="true" id="79fe53c4-e5c9-44a6-8268-6b006323c71d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/extra-types.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/elements/array-selector.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/elements/array-selector.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/elements/custom-style.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/elements/custom-style.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/elements/dom-bind.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/elements/dom-bind.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/elements/dom-if.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/elements/dom-if.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/elements/dom-module.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/elements/dom-module.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/elements/dom-repeat.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/elements/dom-repeat.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/legacy/class.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/legacy/class.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/legacy/legacy-element-mixin.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/legacy/legacy-element-mixin.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/legacy/mutable-data-behavior.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/legacy/mutable-data-behavior.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/legacy/polymer-fn.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/legacy/polymer-fn.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/legacy/polymer.dom.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/legacy/polymer.dom.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/legacy/templatizer-behavior.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/legacy/templatizer-behavior.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/dir-mixin.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/dir-mixin.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/element-mixin.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/element-mixin.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/gesture-event-listeners.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/gesture-event-listeners.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/mutable-data.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/mutable-data.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/properties-changed.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/properties-mixin.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/property-accessors.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/property-accessors.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/property-effects.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/property-effects.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/template-stamp.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/mixins/template-stamp.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/array-splice.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/array-splice.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/async.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/async.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/boot.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/boot.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/case-map.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/case-map.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/debounce.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/debounce.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/flattened-nodes-observer.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/flattened-nodes-observer.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/flush.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/flush.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/gestures.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/gestures.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/html-tag.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/import-href.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/import-href.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/mixin.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/mixin.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/path.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/path.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/render-status.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/render-status.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/resolve-url.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/resolve-url.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/settings.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/settings.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/style-gather.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/style-gather.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/templatize.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/templatize.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/unresolved.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/lib/utils/unresolved.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/polymer-element.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/polymer-types/polymer.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/my-app.ts" afterPath="$PROJECT_DIR$/src/my-app.ts" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,74 +94,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="83" column="7" lean-forward="false" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my-app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my-app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="119" column="25" lean-forward="false" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="element-mixin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polymer-types/lib/mixins/element-mixin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="54" lean-forward="false" selection-start-line="60" selection-start-column="54" selection-end-line="61" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my-app.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my-app.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boot.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polymer-types/lib/utils/boot.d.ts">
+      <file leaf-file-name="my-view3.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my-view3.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extra-types.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polymer-types/extra-types.d.ts">
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="493">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="polymer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polymer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-view3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my-view3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-view2.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my-view2.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,11 +157,33 @@
       <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tsconfig.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
-                <marker date="1513113582629" expanded="true" signature="0:521" ph="{&quot;compileOnSave&quot;: true...}" />
+                <marker date="1513716522244" expanded="true" signature="0:531" ph="{&quot;compileOnSave&quot;: true...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="polymer.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/polymer/types/polymer.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-app.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/my-app.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,10 +202,16 @@
       <find>polymer-</find>
       <find>StampedTemplate</find>
       <find>test</find>
+      <find>info.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="playground" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -144,34 +241,34 @@
         <option value="$PROJECT_DIR$/polymer-types/lib/elements/custom-style.d.ts" />
         <option value="$PROJECT_DIR$/src/my-view.ts" />
         <option value="$PROJECT_DIR$/src/my-view1.html" />
-        <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/src/my-view1.ts" />
         <option value="$PROJECT_DIR$/polymer-types/lib/utils/templatize.d.ts" />
         <option value="$PROJECT_DIR$/polymer-types/lib/utils/gestures.d.ts" />
         <option value="$PROJECT_DIR$/polymer-types/lib/utils/debounce.d.ts" />
         <option value="$PROJECT_DIR$/polymer-types/lib/legacy/legacy-element-mixin.d.ts" />
-        <option value="$PROJECT_DIR$/polymer-types/lib/legacy/class.d.ts" />
-        <option value="$PROJECT_DIR$/src/my-app.html" />
         <option value="$PROJECT_DIR$/src/my-view2.html" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/my-view3.ts" />
-        <option value="$PROJECT_DIR$/src/my-view3.html" />
         <option value="$PROJECT_DIR$/src/my-view2.ts" />
         <option value="$PROJECT_DIR$/src/my-view404.html" />
         <option value="$PROJECT_DIR$/src/my-view404.ts" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/build/index.html" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/my-app.ts" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/polymer-types/lib/legacy/class.d.ts" />
+        <option value="$PROJECT_DIR$/src/my-app.html" />
+        <option value="$PROJECT_DIR$/src/my-view3.html" />
+        <option value="$PROJECT_DIR$/src/my-view3.ts" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/src/my-app.ts" />
       </list>
     </option>
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
-    <exe-path>/usr/local/bin/bower</exe-path>
-    <config-path>$PROJECT_DIR$/bower.json</config-path>
+    <bower-package value="/usr/local/lib/node_modules/bower" />
+    <bower.json value="$PROJECT_DIR$/bower.json" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -205,8 +302,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="606" />
-    <option name="y" value="73" />
+    <option name="x" value="495" />
+    <option name="y" value="138" />
     <option name="width" value="1860" />
     <option name="height" value="1209" />
   </component>
@@ -438,6 +535,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -445,16 +543,10 @@
               <item name="polymer-starter-kit-typescript" type="b2602c69:ProjectViewProjectNode" />
               <item name="polymer-starter-kit-typescript" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="polymer-starter-kit-typescript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="polymer-starter-kit-typescript" type="462c0819:PsiDirectoryNode" />
-              <item name="polymer-types" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -473,7 +565,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -634,9 +726,11 @@
       <item index="1" class="java.lang.String" itemvalue="Gulp.js.watch" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Gulp.js.typescript" />
-        <item index="1" class="java.lang.String" itemvalue="Gulp.js.watch" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Gulp.js.watch" />
+        <item index="1" class="java.lang.String" itemvalue="Gulp.js.typescript" />
+        <item index="2" class="java.lang.String" itemvalue="Gulp.js.typescript" />
+        <item index="3" class="java.lang.String" itemvalue="Gulp.js.watch" />
       </list>
     </recent_temporary>
   </component>
@@ -663,7 +757,9 @@
       <workItem from="1513192122405" duration="1620000" />
       <workItem from="1513622872727" duration="1053000" />
       <workItem from="1513627761380" duration="719000" />
-      <workItem from="1513628491225" duration="3000" />
+      <workItem from="1513628491225" duration="2462000" />
+      <workItem from="1513630995295" duration="875000" />
+      <workItem from="1513715888800" duration="821000" />
     </task>
     <task id="LOCAL-00001" summary="Added idea artifact">
       <created>1511988923003</created>
@@ -728,11 +824,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513628395141</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added gitignore">
+      <created>1513628501838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1513628501838</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36506000" />
+    <option name="totallyTimeSpent" value="40661000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -744,24 +847,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="606" y="73" width="1860" height="1209" extended-state="0" />
-    <editor active="true" />
+    <frame x="495" y="138" width="1860" height="1209" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28748965" sideWeight="0.49757868" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32804233" sideWeight="0.48412699" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49819493" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.252516" sideWeight="0.66446644" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49819493" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.252516" sideWeight="0.8536854" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.252516" sideWeight="0.33553356" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740587" sideWeight="0.6916972" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.252516" sideWeight="0.14631464" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662398" sideWeight="0.68866885" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21947195" sideWeight="0.49061662" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2238724" sideWeight="0.49061662" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -772,12 +875,11 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985073" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985073" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="GitLab Issues" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910448" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="GitLab Issues" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910448" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -850,28 +952,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower_components/polymer/lib/elements/custom-style.d.ts" />
-    <entry file="file://$PROJECT_DIR$/polymer-types/lib/mixins/property-effects.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="609" column="41" lean-forward="true" selection-start-line="609" selection-start-column="41" selection-end-line="609" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polymer-types/lib/utils/async.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polymer-types/lib/utils/mixin.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/polymer-types/lib/mixins/template-stamp.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -945,20 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polymer-types/lib/legacy/class.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/my-app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="7" lean-forward="false" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/my-view1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -973,38 +1039,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polymer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/my-icons.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/my-view3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/my-view3.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/my-view2.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1053,20 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-worker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1094,16 +1118,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1513113582629" expanded="true" signature="0:521" ph="{&quot;compileOnSave&quot;: true...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/polymer-types/polymer-element.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1116,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,14 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="54" lean-forward="false" selection-start-line="60" selection-start-column="54" selection-end-line="61" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/my-app.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1154,18 +1159,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="7" lean-forward="false" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+        <state relative-caret-position="608">
+          <caret line="131" column="18" lean-forward="false" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/polymer-types/lib/legacy/class.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="119" column="25" lean-forward="false" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polymer-types/lib/legacy/class.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/app-localize-behavior/app-localize-behavior.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="126" column="8" lean-forward="true" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="86" lean-forward="false" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my-view3.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my-view3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my-view2.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polymer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/polymer/types/polymer-element.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/polymer/types/polymer.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <marker date="1513716522244" expanded="true" signature="0:531" ph="{&quot;compileOnSave&quot;: true...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my-app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding />
         </state>
       </provider>

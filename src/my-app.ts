@@ -26,9 +26,12 @@ namespace App {
             // Default to 'view1' in that case.
             this.page = page || 'view1';
 
+            // TODO: Add types for drawer when available
+            const drawer: any = this.$.drawer;
+
             // Close a non-persistent drawer when the page & route are changed.
-            if (!this.$.drawer.persistent) {
-                this.$.drawer.close();
+            if (!(drawer).persistent) {
+                drawer.close();
             }
         }
 
