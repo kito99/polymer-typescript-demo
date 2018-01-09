@@ -16,8 +16,12 @@ namespace App {
         routeData: any;
         subroute: string;
 
+        // Example of referring to another element in this project
         @query('my-view1')
         view1: MyView1;
+
+        @query('#drawer')
+        drawer: any; // TODO: Add type when available
 
         @observe('routeData.page')
         _routePageChanged(page) {
@@ -25,12 +29,9 @@ namespace App {
             // Default to 'view1' in that case.
             this.page = page || 'view1';
 
-            // TODO: Add types for drawer when available
-            const drawer: any = this.$.drawer;
-
             // Close a non-persistent drawer when the page & route are changed.
-            if (!(drawer).persistent) {
-                drawer.close();
+            if (!(this.drawer).persistent) {
+                this.drawer.close();
             }
         }
 
