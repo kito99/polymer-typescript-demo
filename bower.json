@@ -13,9 +13,9 @@
     "iron-pages": "PolymerElements/iron-pages#^2.0.0",
     "iron-selector": "PolymerElements/iron-selector#^2.0.0",
     "paper-icon-button": "PolymerElements/paper-icon-button#^2.0.0",
-    "polymer": "https://github.com/Polymer/polymer.git#master",
+    "polymer": "https://github.com/Polymer/polymer.git#v2.4.0-rc.1",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0",
-    "polymer-decorators": "Polymer/polymer-decorators#^0.1.1",
+    "polymer-decorators": "Polymer/polymer-decorators#^0.1.2",
     "reflect-metadata": "rbuckton/reflect-metadata#^0.1.10"
   },
   "devDependencies": {
@@ -24,6 +24,6 @@
   "private": true,
   "resolutions": {
     "webcomponentsjs": "^v1.0.19",
-    "polymer": "master"
+    "polymer": "v2.4.0-rc.1"
   }
 }
