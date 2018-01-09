@@ -1,13 +1,13 @@
 namespace App {
 
-    const {customElement, property, query, queryAll, observe} = Polymer.decorators;
+    const {customElement, property, query, queryAll, observe, computed} = Polymer.decorators;
 
     // Gesture events like tap and track generated from touch will not be
     // preventable, allowing for better scrolling performance.
     Polymer.setPassiveTouchGestures(true);
 
     @customElement('my-app')
-    class MayApp extends Polymer.Element {
+    export class MyApp extends Polymer.Element {
 
         @property({
             reflectToAttribute: true
@@ -15,6 +15,9 @@ namespace App {
         page: string;
         routeData: any;
         subroute: string;
+
+        @query('my-view1')
+        view1: MyView1;
 
         @observe('routeData.page')
         _routePageChanged(page) {
@@ -40,6 +43,7 @@ namespace App {
                 null,
                 this._showPage404.bind(this),
                 true);
+
         }
 
         _showPage404() {
