@@ -8,15 +8,9 @@ var App;
 (function (App) {
     const { customElement, property, query, queryAll, observe } = Polymer.decorators;
     let MyView404 = class MyView404 extends Polymer.Element {
-        static get properties() {
-            return {
-                rootPath: String,
-            };
-        }
     };
     MyView404 = __decorate([
         customElement('my-view404')
     ], MyView404);
 })(App || (App = {}));
-
 //# sourceMappingURL=my-view404.js.map

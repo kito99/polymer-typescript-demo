@@ -15,10 +15,6 @@ namespace App {
         page: string;
         routeData: any;
         subroute: string;
-        // This shouldn't be neccessary, but the Analyzer isn't picking up
-        // Polymer.Element#rootPath
-        rootPath: string;
-
 
         @observe('routeData.page')
         _routePageChanged(page) {

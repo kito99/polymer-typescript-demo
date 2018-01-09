@@ -4,6 +4,8 @@ namespace App {
 
     @customElement('my-view1')
     class MyView1 extends Polymer.Element {
+
+
     }
 
 }

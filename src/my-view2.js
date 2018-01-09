@@ -13,5 +13,4 @@ var App;
         customElement('my-view2')
     ], MyView2);
 })(App || (App = {}));
-
 //# sourceMappingURL=my-view2.js.map

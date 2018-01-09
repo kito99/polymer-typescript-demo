@@ -49,5 +49,4 @@ var App;
         customElement('my-app')
     ], MayApp);
 })(App || (App = {}));
-
 //# sourceMappingURL=my-app.js.map
