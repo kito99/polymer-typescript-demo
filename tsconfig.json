@@ -13,7 +13,7 @@
   },
   "include": [
     "src/**/*.ts",
-    "bower_components/polymer-decorators/global.d.ts",
+    "bower_components/polymer-decorators/polymer-decorators.d.ts",
     "bower_components/polymer/types/*.d.ts"
   ],
   "exclude": [
