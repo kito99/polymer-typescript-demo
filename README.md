@@ -7,6 +7,10 @@ uses the [Polymer Decorators](https://github.com/Polymer/polymer-decorators) pro
 This project is an example of how to use TypeScript to build Polymer 2 applications. For examples of all of the 
 possible decorators you can use, see the [Polymer Decorators README](https://github.com/Polymer/polymer-decorators/blob/master/README.md).
 
+> NOTE: This project currently uses the [Metadata Reflection API](https://github.com/Polymer/polymer-decorators#metadata-reflection-api) 
+in order to simplify the developer experience. It does require an additional dependency, though, so if you don't want to use it, 
+just reverse the steps for including it (described in the link above).
+
 ---
 
 This template is a starting point for building apps using a drawer-based
