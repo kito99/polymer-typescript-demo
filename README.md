@@ -1,6 +1,13 @@
 # Polymer App Toolbox - TypeScript Starter Kit
 
-This is a TypeScript version of the [Polymer 2 Starter Kit](https://github.com/PolymerElements/polymer-starter-kit) that uses the [Polymer Decorators](https://github.com/Polymer/polymer-decorators) project.
+This is a TypeScript version of the [Polymer 2 Starter Kit](https://github.com/PolymerElements/polymer-starter-kit) that 
+uses the [Polymer Decorators](https://github.com/Polymer/polymer-decorators) project and the 
+[typings that now ship with Polymer](https://github.com/Polymer/polymer/tree/master/types).
+
+This project is an example of how to use TypeScript to build Polymer 2 applications. For examples of all of the 
+possible decorators you can use, see the [Polymer Decorators README](https://github.com/Polymer/polymer-decorators/blob/master/README.md).
+
+---
 
 This template is a starting point for building apps using a drawer-based
 layout. The layout is provided by `app-layout` elements.
