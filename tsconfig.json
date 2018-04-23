@@ -14,6 +14,8 @@
   "include": [
     "src/**/*.ts",
     "bower_components/polymer-decorators/polymer-decorators.d.ts",
+    "bower_components/paper-dialog/paper-dialog.d.ts",
+    "bower_components/iron-ajax/iron-ajax.d.ts",
     "bower_components/polymer/types/*.d.ts"
   ],
   "exclude": [

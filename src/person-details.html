@@ -1,0 +1,48 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/paper-dialog/paper-dialog.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="person-details">
+    <template>
+        <iron-ajax id="personAjax" url="https://demo.vaadin.com/demo-data/1.0/people?count=1" handle-as="json" last-response="{{people}}"></iron-ajax>
+        <paper-button raised on-tap="_showDetails">Load Person Details</paper-button>
+        <paper-dialog id="dialog">
+            <h2>Person Details</h2>
+            <div>
+                <div>First Name: [[person.firstName]]</div>
+                <div>Last Name: [[person.lastName]]</div>
+                <div>Address: [[person.address.city]], [[person.address.country]]</div>
+            </div>
+            <div class="buttons">
+                <paper-button dialog-confirm autofocus>Dismiss</paper-button>
+            </div>
+        </paper-dialog>
+    </template>
+</dom-module>
+
+<script>
+    class PersonDetails extends Polymer.Element {
+        static get is() {
+            return 'person-details';
+        }
+
+        static get properties() {
+            return {
+                person: Object
+            };
+        }
+
+        _showDetails(event) {
+            this.$.personAjax.generateRequest().completes.then(() => {
+                this.person = this.people.result[0];
+                this.$.dialog.open();
+            });
+        }
+    }
+
+    customElements.define(PersonDetails.is, PersonDetails);
+
+</script>
